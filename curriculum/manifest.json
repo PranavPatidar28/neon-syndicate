@@ -1,0 +1,701 @@
+{
+  "version": 1,
+  "campaign": "Neon Syndicate",
+  "quests": [
+    {
+      "id": "01-01",
+      "week": 1,
+      "type": "core",
+      "title": "Monorepo Recon",
+      "theme": "Boot Sequence",
+      "xp": 100,
+      "next": "01-02",
+      "checks": [
+        "pnpm verify"
+      ],
+      "file": "curriculum/week-01/01-01-monorepo-recon.md"
+    },
+    {
+      "id": "01-02",
+      "week": 1,
+      "type": "core",
+      "title": "Service Lifelines",
+      "theme": "Boot Sequence",
+      "xp": 100,
+      "next": "01-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-01/01-02-service-lifelines.md"
+    },
+    {
+      "id": "01-03",
+      "week": 1,
+      "type": "debug",
+      "title": "The Vanishing Environment",
+      "theme": "Boot Sequence",
+      "xp": 75,
+      "next": "01-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-01/01-03-the-vanishing-environment.md"
+    },
+    {
+      "id": "01-04",
+      "week": 1,
+      "type": "boss",
+      "title": "Foundation Online",
+      "theme": "Boot Sequence",
+      "xp": 200,
+      "next": "02-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-01/01-04-foundation-online.md"
+    },
+    {
+      "id": "02-01",
+      "week": 2,
+      "type": "core",
+      "title": "Identity Schema",
+      "theme": "Identity Protocol",
+      "xp": 100,
+      "next": "02-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-02/02-01-identity-schema.md"
+    },
+    {
+      "id": "02-02",
+      "week": 2,
+      "type": "core",
+      "title": "Token Rotation",
+      "theme": "Identity Protocol",
+      "xp": 100,
+      "next": "02-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-02/02-02-token-rotation.md"
+    },
+    {
+      "id": "02-03",
+      "week": 2,
+      "type": "debug",
+      "title": "The Immortal Session",
+      "theme": "Identity Protocol",
+      "xp": 75,
+      "next": "02-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-02/02-03-the-immortal-session.md"
+    },
+    {
+      "id": "02-04",
+      "week": 2,
+      "type": "boss",
+      "title": "Secure Entry",
+      "theme": "Identity Protocol",
+      "xp": 200,
+      "next": "03-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-02/02-04-secure-entry.md"
+    },
+    {
+      "id": "03-01",
+      "week": 3,
+      "type": "core",
+      "title": "Agent Domain",
+      "theme": "Agent Foundry",
+      "xp": 100,
+      "next": "03-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-03/03-01-agent-domain.md"
+    },
+    {
+      "id": "03-02",
+      "week": 3,
+      "type": "core",
+      "title": "Operative Console",
+      "theme": "Agent Foundry",
+      "xp": 100,
+      "next": "03-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-03/03-02-operative-console.md"
+    },
+    {
+      "id": "03-03",
+      "week": 3,
+      "type": "debug",
+      "title": "The Stolen Agent",
+      "theme": "Agent Foundry",
+      "xp": 75,
+      "next": "03-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-03/03-03-the-stolen-agent.md"
+    },
+    {
+      "id": "03-04",
+      "week": 3,
+      "type": "boss",
+      "title": "Foundry Integration",
+      "theme": "Agent Foundry",
+      "xp": 200,
+      "next": "04-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-03/03-04-foundry-integration.md"
+    },
+    {
+      "id": "04-01",
+      "week": 4,
+      "type": "core",
+      "title": "Syndicate Lifecycle",
+      "theme": "Syndicate Wars",
+      "xp": 100,
+      "next": "04-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-04/04-01-syndicate-lifecycle.md"
+    },
+    {
+      "id": "04-02",
+      "week": 4,
+      "type": "core",
+      "title": "Policy Grid",
+      "theme": "Syndicate Wars",
+      "xp": 100,
+      "next": "04-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-04/04-02-policy-grid.md"
+    },
+    {
+      "id": "04-03",
+      "week": 4,
+      "type": "debug",
+      "title": "The Double Membership",
+      "theme": "Syndicate Wars",
+      "xp": 75,
+      "next": "04-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-04/04-03-the-double-membership.md"
+    },
+    {
+      "id": "04-04",
+      "week": 4,
+      "type": "boss",
+      "title": "Guild Operations",
+      "theme": "Syndicate Wars",
+      "xp": 200,
+      "next": "05-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-04/04-04-guild-operations.md"
+    },
+    {
+      "id": "05-01",
+      "week": 5,
+      "type": "core",
+      "title": "Mission State Machine",
+      "theme": "Mission Control",
+      "xp": 100,
+      "next": "05-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-05/05-01-mission-state-machine.md"
+    },
+    {
+      "id": "05-02",
+      "week": 5,
+      "type": "core",
+      "title": "Transactional Launch",
+      "theme": "Mission Control",
+      "xp": 100,
+      "next": "05-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-05/05-02-transactional-launch.md"
+    },
+    {
+      "id": "05-03",
+      "week": 5,
+      "type": "debug",
+      "title": "The Double Reward",
+      "theme": "Mission Control",
+      "xp": 75,
+      "next": "05-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-05/05-03-the-double-reward.md"
+    },
+    {
+      "id": "05-04",
+      "week": 5,
+      "type": "boss",
+      "title": "Mission Command",
+      "theme": "Mission Control",
+      "xp": 200,
+      "next": "06-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-05/05-04-mission-command.md"
+    },
+    {
+      "id": "06-01",
+      "week": 6,
+      "type": "core",
+      "title": "Delayed Resolution",
+      "theme": "Ghost Workers",
+      "xp": 100,
+      "next": "06-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-06/06-01-delayed-resolution.md"
+    },
+    {
+      "id": "06-02",
+      "week": 6,
+      "type": "core",
+      "title": "Retry and Dead Letter",
+      "theme": "Ghost Workers",
+      "xp": 100,
+      "next": "06-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-06/06-02-retry-and-dead-letter.md"
+    },
+    {
+      "id": "06-03",
+      "week": 6,
+      "type": "debug",
+      "title": "The Zombie Job",
+      "theme": "Ghost Workers",
+      "xp": 75,
+      "next": "06-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-06/06-03-the-zombie-job.md"
+    },
+    {
+      "id": "06-04",
+      "week": 6,
+      "type": "boss",
+      "title": "Worker Resilience",
+      "theme": "Ghost Workers",
+      "xp": 200,
+      "next": "07-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-06/06-04-worker-resilience.md"
+    },
+    {
+      "id": "07-01",
+      "week": 7,
+      "type": "core",
+      "title": "Socket Perimeter",
+      "theme": "City Pulse",
+      "xp": 100,
+      "next": "07-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-07/07-01-socket-perimeter.md"
+    },
+    {
+      "id": "07-02",
+      "week": 7,
+      "type": "core",
+      "title": "Event Recovery",
+      "theme": "City Pulse",
+      "xp": 100,
+      "next": "07-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-07/07-02-event-recovery.md"
+    },
+    {
+      "id": "07-03",
+      "week": 7,
+      "type": "debug",
+      "title": "The Leaking Room",
+      "theme": "City Pulse",
+      "xp": 75,
+      "next": "07-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-07/07-03-the-leaking-room.md"
+    },
+    {
+      "id": "07-04",
+      "week": 7,
+      "type": "boss",
+      "title": "Live City",
+      "theme": "City Pulse",
+      "xp": 200,
+      "next": "08-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-07/07-04-live-city.md"
+    },
+    {
+      "id": "08-01",
+      "week": 8,
+      "type": "core",
+      "title": "Inventory Integrity",
+      "theme": "Black-Market Ledger",
+      "xp": 100,
+      "next": "08-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-08/08-01-inventory-integrity.md"
+    },
+    {
+      "id": "08-02",
+      "week": 8,
+      "type": "core",
+      "title": "Balanced Ledger",
+      "theme": "Black-Market Ledger",
+      "xp": 100,
+      "next": "08-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-08/08-02-balanced-ledger.md"
+    },
+    {
+      "id": "08-03",
+      "week": 8,
+      "type": "debug",
+      "title": "The Infinite Credits",
+      "theme": "Black-Market Ledger",
+      "xp": 75,
+      "next": "08-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-08/08-03-the-infinite-credits.md"
+    },
+    {
+      "id": "08-04",
+      "week": 8,
+      "type": "boss",
+      "title": "Market Integrity",
+      "theme": "Black-Market Ledger",
+      "xp": 200,
+      "next": "09-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-08/08-04-market-integrity.md"
+    },
+    {
+      "id": "09-01",
+      "week": 9,
+      "type": "core",
+      "title": "Notification Pipeline",
+      "theme": "Social Grid",
+      "xp": 100,
+      "next": "09-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-09/09-01-notification-pipeline.md"
+    },
+    {
+      "id": "09-02",
+      "week": 9,
+      "type": "core",
+      "title": "Search and Feed",
+      "theme": "Social Grid",
+      "xp": 100,
+      "next": "09-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-09/09-02-search-and-feed.md"
+    },
+    {
+      "id": "09-03",
+      "week": 9,
+      "type": "debug",
+      "title": "The Phantom Optimism",
+      "theme": "Social Grid",
+      "xp": 75,
+      "next": "09-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-09/09-03-the-phantom-optimism.md"
+    },
+    {
+      "id": "09-04",
+      "week": 9,
+      "type": "boss",
+      "title": "Connected City",
+      "theme": "Social Grid",
+      "xp": 200,
+      "next": "10-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-09/09-04-connected-city.md"
+    },
+    {
+      "id": "10-01",
+      "week": 10,
+      "type": "core",
+      "title": "Admin Operations",
+      "theme": "Overseer Console",
+      "xp": 100,
+      "next": "10-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-10/10-01-admin-operations.md"
+    },
+    {
+      "id": "10-02",
+      "week": 10,
+      "type": "core",
+      "title": "Security Perimeter",
+      "theme": "Overseer Console",
+      "xp": 100,
+      "next": "10-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-10/10-02-security-perimeter.md"
+    },
+    {
+      "id": "10-03",
+      "week": 10,
+      "type": "debug",
+      "title": "The Invisible Admin",
+      "theme": "Overseer Console",
+      "xp": 75,
+      "next": "10-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-10/10-03-the-invisible-admin.md"
+    },
+    {
+      "id": "10-04",
+      "week": 10,
+      "type": "boss",
+      "title": "Controlled Power",
+      "theme": "Overseer Console",
+      "xp": 200,
+      "next": "11-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-10/10-04-controlled-power.md"
+    },
+    {
+      "id": "11-01",
+      "week": 11,
+      "type": "core",
+      "title": "Test Matrix",
+      "theme": "Red-Team Week",
+      "xp": 100,
+      "next": "11-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-11/11-01-test-matrix.md"
+    },
+    {
+      "id": "11-02",
+      "week": 11,
+      "type": "core",
+      "title": "Performance and Observability",
+      "theme": "Red-Team Week",
+      "xp": 100,
+      "next": "11-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-11/11-02-performance-and-observability.md"
+    },
+    {
+      "id": "11-03",
+      "week": 11,
+      "type": "debug",
+      "title": "The Intermittent Failure",
+      "theme": "Red-Team Week",
+      "xp": 75,
+      "next": "11-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-11/11-03-the-intermittent-failure.md"
+    },
+    {
+      "id": "11-04",
+      "week": 11,
+      "type": "boss",
+      "title": "Resilience Review",
+      "theme": "Red-Team Week",
+      "xp": 200,
+      "next": "12-01",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-11/11-04-resilience-review.md"
+    },
+    {
+      "id": "12-01",
+      "week": 12,
+      "type": "core",
+      "title": "Production Pipeline",
+      "theme": "Launch Night",
+      "xp": 100,
+      "next": "12-02",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-12/12-01-production-pipeline.md"
+    },
+    {
+      "id": "12-02",
+      "week": 12,
+      "type": "core",
+      "title": "Portfolio Operations",
+      "theme": "Launch Night",
+      "xp": 100,
+      "next": "12-03",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-12/12-02-portfolio-operations.md"
+    },
+    {
+      "id": "12-03",
+      "week": 12,
+      "type": "debug",
+      "title": "The Broken Release",
+      "theme": "Launch Night",
+      "xp": 75,
+      "next": "12-04",
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test"
+      ],
+      "file": "curriculum/week-12/12-03-the-broken-release.md"
+    },
+    {
+      "id": "12-04",
+      "week": 12,
+      "type": "boss",
+      "title": "Launch and Defense",
+      "theme": "Launch Night",
+      "xp": 200,
+      "next": null,
+      "checks": [
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm lint"
+      ],
+      "file": "curriculum/week-12/12-04-launch-and-defense.md"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "campaignStartedAt": null,
+  "currentQuest": null,
+  "totalXp": 0,
+  "unlocked": ["01-01"],
+  "quests": {
+    "01-01": {
+      "status": "unlocked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "01-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "01-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "01-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "02-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "02-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "02-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "02-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "03-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "03-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "03-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "03-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "04-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "04-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "04-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "04-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "05-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "05-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "05-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "05-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "06-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "06-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "06-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "06-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "07-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "07-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "07-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "07-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "08-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "08-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "08-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "08-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "09-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "09-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "09-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "09-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "10-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "10-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "10-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "10-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "11-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "11-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "11-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "11-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "12-01": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "12-02": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "12-03": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    "12-04": {
+      "status": "locked",
+      "passedChecks": [],
+      "reflection": null,
+      "startedAt": null,
+      "completedAt": null
+    }
+  }
+}
