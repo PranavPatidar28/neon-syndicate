@@ -12,7 +12,7 @@ A 12-week, hints-first full-stack mastery campaign disguised as a co-op cyberpun
 
 For the complete guided interface, run `pnpm mission-control` and open `http://127.0.0.1:3100`. Mission Control is a separate local app; `apps/web` remains the game you build.
 
-Mission Control can optionally use a local [Antigravity Claude Proxy](https://github.com/badri-s2001/antigravity-claude-proxy) for structured, hints-first mentoring. Start the proxy on `http://localhost:8080`; the default model can be changed with `ANTIGRAVITY_MENTOR_MODEL`. Context is redacted, previewed, and hash-bound to explicit approval before it is sent. The campaign remains fully usable without the proxy.
+Mission Control can optionally use a local Antigravity Claude Proxy for structured, hints-first mentoring. Start the proxy on `http://localhost:8080`; the default model can be changed with `ANTIGRAVITY_MENTOR_MODEL`. Context is redacted, previewed, and hash-bound to explicit approval before it is sent. The campaign remains fully usable without the proxy.
 
 Without Docker, code-only verification still works. Database and Redis exercises require Docker or compatible hosted URLs.
 
