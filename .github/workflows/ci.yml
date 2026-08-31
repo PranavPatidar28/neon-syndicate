@@ -6,23 +6,27 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        {
-          image: 'postgres:17.6-alpine',
-          env:
-            {
-              POSTGRES_USER: neon,
-              POSTGRES_PASSWORD: neon,
-              POSTGRES_DB: neon_syndicate,
-            },
-          ports: ['5432:5432'],
-          options: "--health-cmd='pg_isready -U neon' --health-interval=5s --health-timeout=5s --health-retries=10",
-        }
+        image: postgres:17.6-alpine
+        env:
+          POSTGRES_USER: neon
+          POSTGRES_PASSWORD: neon
+          POSTGRES_DB: neon_syndicate
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
       redis:
-        {
-          image: 'redis:8.2-alpine',
-          ports: ['6379:6379'],
-          options: "--health-cmd='redis-cli ping' --health-interval=5s --health-timeout=5s --health-retries=10",
-        }
+        image: redis:8.2-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
     env:
       {
         DATABASE_URL: 'postgresql://neon:neon@localhost:5432/neon_syndicate?schema=public',
