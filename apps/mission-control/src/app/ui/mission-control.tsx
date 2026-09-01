@@ -1190,11 +1190,11 @@ function RepositoryView({
             <span
               className={snapshot.environment.dockerAvailable ? 'ok' : ''}
             />
-            <strong>Docker</strong>
+            <strong>Docker fallback</strong>
             <small>
               {snapshot.environment.dockerAvailable
                 ? 'available'
-                : 'not installed'}
+                : 'optional / not installed'}
             </small>
           </p>
           <p>

@@ -12,7 +12,7 @@ Browser → Next.js → versioned NestJS API → PostgreSQL. The API commits aut
 - Errors eventually use `{ error: { code, message, details? }, requestId }`.
 - Cursor pagination uses stable ordering and opaque cursors.
 - `packages/contracts` contains transport-neutral primitives and generated-client exports, not duplicated domain entities.
-- Configuration is validated at process startup. `DATABASE_URL` and `REDIS_URL` are provider-neutral.
+- Configuration is validated at process startup. `DATABASE_URL` and `REDIS_URL` are provider-neutral; managed Redis uses the standard TLS `rediss://` protocol rather than a provider REST API.
 
 ## Boundaries
 

@@ -4,9 +4,9 @@ A 12-week, hints-first full-stack mastery campaign disguised as a co-op cyberpun
 
 ## Start here
 
-1. Install Node 24.14+, pnpm 10.33+, Git, and Docker Desktop.
-2. Copy `.env.example` to `.env`.
-3. Run `pnpm install`, `pnpm infra:up`, and `pnpm db:generate`.
+1. Install Node 24.14+, pnpm 10.33+, and Git. Docker is not required.
+2. Create a Neon project and a managed Redis database (Upstash or Redis Cloud). Copy `.env.example` to `.env`, then add Neon's pooled/direct URLs and the provider's TLS `rediss://` URL. Use a Redis protocol URL, not an HTTPS REST URL, and keep all credentials out of Git.
+3. Run `pnpm install`, `pnpm db:validate`, and `pnpm db:generate`.
 4. Verify with `pnpm verify` and `pnpm test:e2e`.
 5. Read [`docs/START_HERE.md`](docs/START_HERE.md), then run `pnpm quest:list` and `pnpm quest:start -- 01-01`.
 
@@ -14,7 +14,7 @@ For the complete guided interface, run `pnpm mission-control` and open `http://1
 
 Mission Control can optionally use a local Antigravity Claude Proxy for structured, hints-first mentoring. Start the proxy on `http://localhost:8080`; the default model can be changed with `ANTIGRAVITY_MENTOR_MODEL`. Context is redacted, previewed, and hash-bound to explicit approval before it is sent. The campaign remains fully usable without the proxy.
 
-Without Docker, code-only verification still works. Database and Redis exercises require Docker or compatible hosted URLs.
+PostgreSQL is provided by Neon and Redis by the managed provider configured in `REDIS_URL`; the application stack needs no local infrastructure. Run `pnpm redis:check` after adding the Redis URL. Docker Compose remains an optional portability fallback through the explicitly named `infra:docker:*` commands, but it is not part of the normal workflow.
 
 ## Commands
 
@@ -22,8 +22,10 @@ Without Docker, code-only verification still works. Database and Redis exercises
 | ------------------------------------ | ---------------------------------------------------------- |
 | `pnpm dev`                           | Run web, API, and worker in watch mode                     |
 | `pnpm verify`                        | Format, lint, type, unit, build, and curriculum validation |
-| `pnpm infra:up`                      | Start PostgreSQL and Redis                                 |
+| `pnpm db:validate` / `db:generate`   | Validate the Prisma schema and generate its client         |
 | `pnpm db:migrate` / `pnpm db:seed`   | Apply learner-owned schema and seed data                   |
+| `pnpm redis:check`                   | Verify the managed Redis connection                        |
+| `pnpm infra:docker:up/down`          | Optional local PostgreSQL/Redis fallback                   |
 | `pnpm test:e2e`                      | Run browser smoke tests                                    |
 | `pnpm quest:list/status/start/check` | Drive campaign progression                                 |
 | `pnpm mission-control`               | Launch the local learning dashboard on port 3100           |

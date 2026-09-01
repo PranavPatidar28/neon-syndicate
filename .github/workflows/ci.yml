@@ -30,6 +30,7 @@ jobs:
     env:
       {
         DATABASE_URL: 'postgresql://neon:neon@localhost:5432/neon_syndicate?schema=public',
+        DIRECT_URL: 'postgresql://neon:neon@localhost:5432/neon_syndicate?schema=public',
         REDIS_URL: 'redis://localhost:6379',
       }
     steps:

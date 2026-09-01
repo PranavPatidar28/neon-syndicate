@@ -1,5 +1,7 @@
 # Start Here
 
+For the complete setup, quest workflow, mentoring, evidence, and study strategy, read [`LEARNING_GUIDE.md`](LEARNING_GUIDE.md).
+
 ## The loop
 
 1. Run `pnpm mission-control`, open `http://127.0.0.1:3100`, and initialize the active quest.
