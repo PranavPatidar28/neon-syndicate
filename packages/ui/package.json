@@ -12,11 +12,11 @@
     "test": "vitest run --passWithNoTests"
   },
   "peerDependencies": {
-    "react": "19.2.0"
+    "react": "19.2.8"
   },
   "devDependencies": {
-    "@types/react": "19.2.2",
-    "react": "19.2.0",
+    "@types/react": "19.2.18",
+    "react": "19.2.8",
     "typescript": "5.9.3",
     "vitest": "3.2.6"
   }
